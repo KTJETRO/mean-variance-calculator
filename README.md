@@ -6,7 +6,7 @@ It was built as part of the [freeCodeCamp Data Analysis with Python Projects](ht
 
 ---
 
-##  How It Works
+## How It Works
 
 - The program defines a function named `calculate()` inside `mean_var_std.py`.
 - It accepts a list of **9 numerical values**.
@@ -26,7 +26,7 @@ from mean_var_std import calculate
 result = calculate([0, 1, 2, 3, 4, 5, 6, 7, 8])
 print(result)
 
-## Output:
+Output:
 
 {
   'mean': [[3.0, 4.0, 5.0], [1.0, 4.0, 7.0], 4.0],
@@ -37,7 +37,7 @@ print(result)
   'sum': [[9, 12, 15], [3, 12, 21], 36]
 }
 
-## Project Structure
+Project Structure:
 
 📁 mean-variance-calculator
 ├── mean_var_std.py       # Main logic (calculate() function)
@@ -45,16 +45,15 @@ print(result)
 ├── test_module.py        # Auto test cases for freeCodeCamp
 └── README.md             # Project description (this file)
 
-
-## How to Run the Project
-
+How to Run the Project
 In Gitpod or your terminal:
-python3 main.py
 
-## To run the test cases and validate the solution:
+python3 main.py
+To run the test cases and validate the solution:
 
 python3 -m unittest test_module.py
 ✅ You should see:
+
 
 ...
 ----------------------------------------------------------------------
@@ -62,21 +61,19 @@ Ran 3 tests in 0.001s
 
 OK
 
-
-## License
+License
 This project is licensed under the MIT License, meaning it's open for anyone to use, modify, and share.
 
-## Author:
+Author
 Kelvin Tinashe Chada
 https://github.com/KTJETRO
 
-## Learn More:
-
-## This project is part of the freeCodeCamp: Data Analysis with Python Certification.
+Learn More
+This project is part of the freeCodeCamp: Data Analysis with Python Certification.
 
 Explore more projects and challenges to improve your Python + data skills!
 
-## ⚠️ Disclaimer
+⚠️ Disclaimer
 This project was developed as part of the freeCodeCamp Data Analysis with Python certification.
 I do not claim ownership of the original project idea or instructions.
 This repository contains my solution only, written for educational purposes.
